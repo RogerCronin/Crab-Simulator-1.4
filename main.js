@@ -141,7 +141,7 @@ async function intro() {
 async function credits() {
   clear()
   await fprint("Made by Jacob Johnson and Roger Cronin\n", "green", 1)
-	await fprint("Shoutout to RomeroShwarz and their 1300s Peasant Simulator for insipration\n", "green", 1)
+	await fprint("Shoutout to RomeroShwarz and their 1300s Peasant Simulator for inspiration\n", "green", 1)
   const span = config.createSpan("green")
   config.output.appendChild(span)
   for(let c of "Shoutout ") {
